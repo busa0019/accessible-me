@@ -4,6 +4,7 @@ body {
   background-color: #d3d3d3;
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +50,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.25rem;
 }
 
+/* Focus and hover states */
+.main-nav ul li a:focus,
+.main-nav ul li a:hover {
+  text-decoration: underline; /* Underline text on hover and focus */
+  outline: 2px solid #ffcc00; /* Yellow outline on focus */
+  outline-offset: 4px; /* Space between outline and element */
+}
+
 /* Banner Image */
 .banner {
   width: 100%;
@@ -85,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 .owner ul li {
   margin-bottom: 0.5rem;
 }
+
 
 /* Address */
 address {
@@ -137,6 +147,7 @@ address {
 .contact-section form button:hover {
   background-color: #555;
 }
+
 
 /* Footer */
 .site-footer {
